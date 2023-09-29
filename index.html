@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuberkulosa</title>
+</head>
+<body>
+
+    <div class="Frame1" style="width: 1940px; height: 1024px; position: fixed; background: white">
+        <img class="Wp1" style="width: 100%; height: 100%; left: -18px; top: -14px; position: absolute" src="wp.jpg" />
+        <div class="Tuberkulosa" style="left: 84px; top: 227px; position: absolute; color: #BAE491; font-size: 64px; font-family: Play; font-weight: 700; word-wrap: break-word">Tuberkulosa</div>
+        <div class="CapstoneProject" style="left: 84px; top: 123px; position: absolute; color: #050801; font-size: 96px; font-family: Play; font-weight: 700; text-transform: uppercase; word-wrap: break-word">Capstone Project</div>
+      </div>
+      
+</body>
+
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "c56ce0e9-0f4f-4533-ad42-036691cb0f43", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "a51d3fba-d4a2-45a3-a920-dc8d6f68cef2", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</html>
